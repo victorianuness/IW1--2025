@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela 2 </title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 22px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th,
+        td {
+            border: 1px solid gray;
+            padding: 10px;
+        }
+
+        img {
+            height: 50px;
+            width: 75px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>EXERCITANDO TABELAS COM IMAGENS</h1>
+    <table>
+        <caption>COMIDAS FAVORITAS</caption>
+        <thead>
+            <tr>
+                <th>Grupos</th>
+                <th>Nomes</th>
+                <th colspan="3" scope="colgroup">Escolhas</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th colspan="2">Total</th>
+                <th colspan="3">12 opções</th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th rowspan="2">Mulheres</th>
+                <td>Maria</td>
+                <td><img src="imagens/melancia.jpg"></td>
+                <td><img src="imagens/pamonha.jpg"></td>
+                <td><img src="imagens/tacos.jpg"></td>
+            </tr>
+            <tr>
+                <td>Mariana</td>
+                <td><img src="imagens/brigadeiro.jpg"></td>
+                <td><img src="imagens/sorvete.jpg"></td>
+                <td><img src="imagens/nutella.jpg"></td>
+            </tr>
+            <tr>
+                <th rowspan="2">Homens</th>
+                <td>Luiz</td>
+                <td><img src="imagens/coxinha.jpg"></td>
+                <td><img src="imagens/LASANHA-BOLONHESA.jpg"></td>
+                <td><img src="imagens/costela.jpg"></td>
+            </tr>
+            <tr>
+                <td>Lucas</td>
+                <td><img src="imagens/pizza.jpg"></td>
+                <td><img src="imagens/churrasco.jpg"></td>
+                <td><img src="imagens/feijoada.jpg"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
